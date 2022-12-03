@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 14%;
+    background-color:#63FF00;
+    transition: .3s;
+    font-family: 'Solway', serif;
+}
+.logo {
+    margin-left: 100px;
+    cursor: pointer;
+}
+.logo:hover {
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    margin-right: 100px;
+}
+.navbar li {
+    margin: 20px;
+}
+.navbar a {
+    color: #000;
+}
+.navbar a:hover {
+    color: #fff;
+}
+
+/* home */
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+span {
+    color: #63FF00;
+}
+.home-text {
+    margin-left: 200px;
+}
+.home-text h1 {
+    font-size: 4rem;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.home-text h3 {
+    font-size: 1rem;
+    color: rgb(23, 22, 22);
+    margin-top: 20px;
+}
+.home-img img {
+    width: 700px;
+    height: 500px;
+}
+
+
+/* product */
+.product {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+.product p {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 70px;
+}
+.box-product {
+    display: flex;
+    justify-content: center;
+}
+.box-product .box {
+    margin: 20px;
+}
+.box-one {
+    width: 400px;
+    height: 500px;
+    background-color: #63FF00;
+
+}
+.box-one img {
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.box-one h3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-one p {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-one button {
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box-one button:hover {
+    background-color: #63FF00;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 1px 3px 1px #fff;
+}
+.box-two {
+    width: 400px;
+    height: 500px;
+    background-color: #63FF00;
+
+}
+.box-two img {
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.box-two h3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-two p {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-two button {
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box-two button:hover {
+    background-color: #63FF00;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 1px 3px 1px #fff;
+}
+.box-three {
+    width: 400px;
+    height: 500px;
+    background-color: #63FF00;
+
+}
+.box-three img {
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.box-three h3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-three p {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.box-three button {
+    width: 150px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box-three button:hover {
+    background-color: #63FF00;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 1px 3px 1px #fff;
+}
